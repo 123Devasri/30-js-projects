@@ -1,0 +1,41 @@
+body{
+    background-color:#c3eae7;
+}
+.card{
+    background-image: linear-gradient(to right,blue,green);
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    font-size: 25px;
+    padding:45px;
+}
+.search{
+    margin-left:30px;
+}
+.search input{
+    height:35px;
+    border-radius: 20px;
+}
+.search button{
+    border-radius: 30px;
+    cursor: pointer;
+}
+.col{
+    display:flex;
+    justify-content: space-around;
+}
+.humimg,.windimg{
+    height:50px;
+    width:50px;
+    margin-left: 90px;
+}
+.weather{
+    display:none;
+}
+.error{
+    display:none;
+}
